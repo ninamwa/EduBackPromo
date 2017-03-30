@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_opplysninger"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    tools:context="com.example.anna.eduback2.views.Login.OpplysningerActivity">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:weightSum="1">
+
+        <ImageView
+            android:src="@mipmap/edubackicon"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginBottom="13dp"
+            android:id="@+id/imageView" />
+
+        <TextView
+            android:id="@+id/editTextUserLogin"
+            android:text=" Register User Information"
+            android:inputType="textPersonName"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_margin="15dp"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:textColor="#213664"
+            android:textColorHint="#213664"
+            android:padding="14dp"
+
+            android:fontFamily="sans-serif-condensed"
+            android:layout_weight="0.10" />
+
+        <EditText
+            android:layout_marginTop="20dp"
+            android:id="@+id/editTextFullName"
+            android:hint="Please Enter Full Name"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_margin="15dp"
+            android:textSize="15sp"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:padding="14dp"
+            android:inputType="text"
+            android:background="#3F9FC9"
+             />
+
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checkedButton="@+id/rb_female"
+                android:orientation="horizontal">
+
+                <RadioButton
+                android:text="Student"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/checkBoxStudent"
+                android:textSize="18sp"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="normal|italic"
+                android:drawableLeft="@mipmap/ic_books"
+                android:drawableStart="@mipmap/ic_books"
+                android:layout_weight="0.70" />
+
+            <RadioButton
+                android:text="Professor"
+                android:drawableLeft="@mipmap/ic_professor"
+                android:drawableStart="@mipmap/ic_professor"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/checkBoxProfessor"
+                android:textSize="18sp"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="normal|italic" />
+            </RadioGroup>
+
+
+
+        <Button
+            android:text="Save Information"
+            android:id="@+id/buttonSaveInfo"
+            android:layout_width="225dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:background="@drawable/button_background"
+           />
+
+    </LinearLayout>
+
+</RelativeLayout>

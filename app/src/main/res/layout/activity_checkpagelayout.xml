@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingLeft="50dp"
+    android:paddingRight="50dp"
+    android:paddingTop="25dp"
+    android:paddingBottom="25dp"
+    android:orientation="vertical"
+    android:background="@android:color/white">
+
+    <TextView
+    android:layout_width="347dp"
+    android:text="Did you attend the first lecture?"
+    android:textSize="18dp"
+    android:textStyle="bold"
+    android:textColor="@android:color/black"
+    android:layout_marginBottom="15dp"
+    android:layout_height="wrap_content" />
+
+    <RadioGroup
+        android:id="@+id/Questionone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checkedButton="@+id/rb_female"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/checkBoxStudent1YES"
+            android:layout_width="106dp"
+            android:layout_height="wrap_content"
+            android:text="Yes" />
+
+        <RadioButton
+            android:text="No"
+            android:layout_width="121dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBoxStudent1NO"
+            android:textSize="18sp" />
+    </RadioGroup>
+
+
+
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="30dp"/>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Did you attend the second lecture? "
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="15dp"
+        android:layout_height="wrap_content" />
+
+    <RadioGroup
+        android:id="@+id/Questiontwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checkedButton="@+id/rb_female"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/checkBoxStudent2YES"
+            android:layout_width="106dp"
+            android:layout_height="wrap_content"
+            android:text="Yes" />
+
+        <RadioButton
+            android:id="@+id/checkBoxStudent2NO"
+            android:text="No"
+            android:layout_width="121dp"
+            android:layout_height="wrap_content"
+            android:textSize="18sp" />
+    </RadioGroup>
+
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="30dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Did you watch the lecture on video? "
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="15dp"
+        android:layout_height="wrap_content" />
+
+    <RadioGroup
+        android:id="@+id/Questionthree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checkedButton="@+id/rb_female"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/checkBoxStudent3YES"
+            android:layout_width="106dp"
+            android:layout_height="wrap_content"
+            android:text="Yes" />
+
+        <RadioButton
+            android:id="@+id/checkBoxStudent3NO"
+            android:text="No"
+            android:layout_width="121dp"
+            android:layout_height="wrap_content"
+            android:textSize="18sp" />
+    </RadioGroup>
+
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="30dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Have you done the task for the week? "
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="15dp"
+        android:layout_height="wrap_content" />
+
+    <RadioGroup
+        android:id="@+id/Questionfour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checkedButton="@+id/rb_female"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/checkBoxStudent4YES"
+            android:layout_width="106dp"
+            android:layout_height="wrap_content"
+            android:text="Yes" />
+
+        <RadioButton
+            android:id="@+id/checkBoxStudent4NO"
+            android:text="No"
+            android:layout_width="121dp"
+            android:layout_height="wrap_content"
+            android:textSize="18sp" />
+    </RadioGroup>
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnFeedBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:padding="10dp"
+            android:text="Submit feedback" />
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="wrap_content"
+            android:padding="10dp"
+            android:text="Cancel"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>
