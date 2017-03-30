@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@android:color/background_light"
-    tools:context="com.example.anna.eduback2.views.Login.OpplysningerActivity">
+    tools:context="com.example.bruker.edubackpromo.views.Login.OpplysningerActivity">
 
     <LinearLayout
         xmlns:android="http://schemas.android.com/apk/res/android"

@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "438980435468",
+    "firebase_url": "https://eduback-2feef.firebaseio.com",
+    "project_id": "eduback-2feef",
+    "storage_bucket": "eduback-2feef.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:438980435468:android:393e38e4735f94c0",
+        "android_client_info": {
+          "package_name": "com.example.anna.eduback2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "438980435468-ggdghabttvr2vpddvnsir3i5m9mek7mb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.anna.eduback2",
+            "certificate_hash": "f2207045e91c0412bab5f1d394f4a2a9d8037553"
+          }
+        },
+        {
+          "client_id": "438980435468-ust6deslt71lvs1adescfc3d71jkldos.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.anna.eduback2",
+            "certificate_hash": "698a06ce13daaf729c16a6a04b4bdff0a65a846e"
+          }
+        },
+        {
+          "client_id": "438980435468-074qaf87cp11t9ecnnjhp01a6s82qq9b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDcKN0ah4QT0vtpZHUvXQHzYQcXXbUK3s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "438980435468-074qaf87cp11t9ecnnjhp01a6s82qq9b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
